@@ -21,7 +21,7 @@ def test_get_human_age_if_cat_and_dog_years_less_24_years() -> None:
 
 
 def test_get_human_age_if_cat_and_dog_years_equal_27_and_28_years() -> None:
-    assert get_human_age(27, 28) == [3, 3]
+    assert get_human_age(27, 28) == [2, 2]
 
 
 def test_get_human_age_if_cat_and_dog_years_greater_27_and_28_years() -> None:

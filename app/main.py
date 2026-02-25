@@ -44,3 +44,5 @@ def get_human_age(cat_age: int, dog_age: int) -> list:
             break
 
     return result
+
+print(get_human_age(15, 14))
